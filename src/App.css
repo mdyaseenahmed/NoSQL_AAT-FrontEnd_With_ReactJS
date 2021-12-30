@@ -12,3 +12,105 @@
 body {
   font-family: 'Noto Serif';
 }
+
+.myNavbar {
+  font-family: 'Noto Serif';
+}
+
+.myNavbar a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+/* .myNavbar a:hover {
+  color: #fff !important;
+} */
+
+.navItem {
+  color: #000000 !important;
+  font-size: 18px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  /* transition: 1s !important;  */
+}
+
+.navItem:hover {
+  background-color: rgba(29, 27, 31, 0.2);
+  /* color: #fff !important; */
+  border-radius: 5px;
+}
+
+.tableData {
+  font-family: 'Noto Serif';
+  font-size: 16px;
+}
+
+.tableHeading {
+  font-family: 'Lora';
+  font-size: 16px;
+}
+
+.table-container {
+  margin-top: 6%;
+}
+
+.totalRecords {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'PT Serif';
+  font-weight: bold;  
+}
+
+.intro {
+  margin-top: 12%;
+  font-family: 'PT Serif';
+  text-align: center;
+  font-size: 22px;
+}
+
+.title {
+  /* margin-bottom: 15px !important; */
+  color: crimson !important;
+}
+
+.names {
+  color: midnightblue;
+}
+
+.faculty {
+  color: purple;
+}
+
+.analytics-container {
+  margin-top: 6%;
+  font-family: 'Lora';
+}
+
+.list {
+  margin-top: 2%;
+  font-size:20px;
+}
+
+.danger {
+  /* background-color: rgb(222, 231, 181); */
+  color: crimson;
+  padding: 2px;
+  font-weight: bold;
+  font-family: 'Noto Serif';
+  border-radius: 10px;
+}
+
+.createDoc {
+  margin-top: 12vh;
+}
+
+.totalRecords1{
+  text-align: center;
+  font-family: 'PT Serif';
+  font-weight: bold;
+}
+
+.form-control {
+  margin: 2%;
+}
